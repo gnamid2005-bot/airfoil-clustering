@@ -1,0 +1,115 @@
+{
+  "analysis_operations_excluded": [
+    "registration",
+    "PCA",
+    "GMM fitting"
+  ],
+  "dataset": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "dataset_sha256": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+  "geometry_shape": [
+    1652,
+    200,
+    2
+  ],
+  "same_sample_universe": true,
+  "solutions": {
+    "10": {
+      "K": 10,
+      "assignment_csv": "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17.csv",
+      "cluster_sizes": [
+        320,
+        24,
+        13,
+        384,
+        26,
+        117,
+        263,
+        98,
+        226,
+        181
+      ],
+      "identity_order_match": true,
+      "labels_npy": "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17_labels.npy",
+      "n": 1652,
+      "q": 17,
+      "template_mean_max_abs_discrepancy": 0.0
+    },
+    "11": {
+      "K": 11,
+      "assignment_csv": "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15.csv",
+      "cluster_sizes": [
+        198,
+        163,
+        17,
+        246,
+        12,
+        333,
+        108,
+        351,
+        10,
+        94,
+        120
+      ],
+      "identity_order_match": true,
+      "labels_npy": "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15_labels.npy",
+      "n": 1652,
+      "q": 15,
+      "template_mean_max_abs_discrepancy": 0.0
+    },
+    "8": {
+      "K": 8,
+      "assignment_csv": "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27.csv",
+      "cluster_sizes": [
+        437,
+        288,
+        341,
+        175,
+        252,
+        16,
+        31,
+        112
+      ],
+      "identity_order_match": true,
+      "labels_npy": "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27_labels.npy",
+      "n": 1652,
+      "q": 27,
+      "template_mean_max_abs_discrepancy": 0.0
+    },
+    "9": {
+      "K": 9,
+      "assignment_csv": "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14.csv",
+      "cluster_sizes": [
+        380,
+        209,
+        106,
+        257,
+        21,
+        190,
+        17,
+        350,
+        122
+      ],
+      "identity_order_match": true,
+      "labels_npy": "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14_labels.npy",
+      "n": 1652,
+      "q": 14,
+      "template_mean_max_abs_discrepancy": 0.0
+    }
+  },
+  "source_hashes": {
+    "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27.csv": "970a2ce55cfa504f6eaeda7c0a7431bc466f93231638e854a49e8bb0bec332f1",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27_labels.npy": "ed1c65d5c74983f006e55afe06b462b945db269c89a754f01090e824758b5e1c",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14.csv": "1e7ed17aaa7a6e9baff63da4aa1abd24cece8f8afe55272931f61b172f51ba30",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14_labels.npy": "a1d341966b5dd7e24d10a691a6699a0b194c6733ce754420acfc7efc67bc4fd6",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17.csv": "7c2ceaf1dea2ceb26b49dfe76413440ac01b6644438b6815806784b93ac32312",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17_labels.npy": "0e39e9b72e9cdd3ed3c3d278aa5f54c2e40e73627a707f02a7b61576afde07f6",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15.csv": "e18281272f4fdaa9801091649af7b2b1dd459a6ee774d53624211be070d7a4ea",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15_labels.npy": "6a41068a34a89717cec10ecb78910c89b1f4beb3fadc5d4bbe94018f1f5581b6",
+    "outputs/gabriel_big_registration_k8_k11/templates/K08_q27/all_templates.npz": "fc943111a09669965c4533e9a2462c3400604301fd5d89348fb86f36cf8c6083",
+    "outputs/gabriel_big_registration_k8_k11/templates/K09_q14/all_templates.npz": "1d16ad83feabc119caa3c5c0f2d0cf709b52634299ea27808b242b523303e379",
+    "outputs/gabriel_big_registration_k8_k11/templates/K10_q17/all_templates.npz": "ccab3d1e1197d30ec368821000a87e87d17e74ceacd7ca3b384da36377ee6a01",
+    "outputs/gabriel_big_registration_k8_k11/templates/K11_q15/all_templates.npz": "5bd0f92fbd5b9d8b925e95781ad42f9259b0a18963f06530dee3af2d737eb5c3"
+  },
+  "status": "PASS"
+}

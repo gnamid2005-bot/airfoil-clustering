@@ -1,0 +1,18 @@
+{
+  "all_runs_converged": true,
+  "all_runs_exactly_k_nonempty_clusters": true,
+  "ari_finite": true,
+  "exactly_190_ari_each_k": true,
+  "exactly_19_k_values": true,
+  "exactly_20_runs_each_k": true,
+  "inertia_finite": true,
+  "input_sha256_after": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+  "input_unchanged": true,
+  "output_allocated_kib_before_final_report": 1268,
+  "output_apparent_bytes_before_final_report": 1269374,
+  "output_allocated_kib_final": 1284,
+  "output_apparent_bytes_final": 1283570,
+  "previous_top_level_output_directory_mtimes_unchanged": true,
+  "registration_pca_gmm_outputs_modified": false,
+  "total_fits_380": true
+}

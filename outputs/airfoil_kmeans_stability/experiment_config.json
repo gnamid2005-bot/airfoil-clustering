@@ -1,0 +1,126 @@
+{
+  "cluster_size_warnings": {
+    "absolute_size_lt": 10,
+    "fraction_lt": 0.01
+  },
+  "experiment": "standalone direct-coordinate K-means stability",
+  "input": {
+    "all_samples_same_dimensionality": true,
+    "all_values_finite": true,
+    "archive_keys": [
+      "shapes",
+      "filenames",
+      "names",
+      "original_point_counts"
+    ],
+    "array_shape": [
+      1654,
+      200,
+      2
+    ],
+    "dtype_used": "float64",
+    "flatten_order": "NumPy C order: [point0_x, point0_y, point1_x, point1_y, ...]",
+    "flattened_dimension": 400,
+    "infinite_count": 0,
+    "input_path": "data/airfoils/processed/airfoils_n100_seed0.npz",
+    "input_sha256": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+    "lower_surface_points": 100,
+    "n_airfoils": 1654,
+    "nan_count": 0,
+    "points_per_airfoil": 200,
+    "pointwise_correspondence_established": true,
+    "upper_surface_points": 100,
+    "x_coordinate_dimensions_constant_exact": 200,
+    "x_coordinate_max_variance": 1.0654059563075528e-27,
+    "x_coordinate_zero_variance_dimensions_from_np_var": 12,
+    "x_coordinates_identical_across_airfoils_exact": true
+  },
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "kmeans": {
+    "algorithm": "lloyd",
+    "implementation": "sklearn.cluster.KMeans",
+    "initialization": "k-means++",
+    "max_iter": 1000,
+    "n_init": 1,
+    "random_state": "explicit seed 0..19",
+    "tolerance": 1e-06
+  },
+  "knee": {
+    "diagnostic_only": true,
+    "estimated_k": 7,
+    "method": "maximum perpendicular distance from normalized mean-inertia curve to endpoint chord"
+  },
+  "optional_y_only_sanity_check": {
+    "distance_arrays_exactly_equal": false,
+    "full_inertia": 43.449413105800645,
+    "full_vs_y_labels_ari": 1.0,
+    "k_checked": 7,
+    "max_absolute_squared_distance_difference": 1.7763568394002505e-15,
+    "sampled_pairs": 10000,
+    "seed_checked": 0,
+    "y_only_inertia": 43.449413105800645
+  },
+  "representation": {
+    "dimension": 400,
+    "gmm": false,
+    "pca": false,
+    "primary": "full flattened corresponding shape coordinates",
+    "registration": false,
+    "velocity_fields": false
+  },
+  "runtime_seconds_before_report": 5.415745209000306,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "software": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.5.1",
+    "python": "3.13.9",
+    "scikit_learn": "1.9.0"
+  },
+  "stability": {
+    "label_alignment": false,
+    "metric": "Adjusted Rand Index",
+    "pairs_per_k": 190,
+    "std_ddof": 0
+  }
+}

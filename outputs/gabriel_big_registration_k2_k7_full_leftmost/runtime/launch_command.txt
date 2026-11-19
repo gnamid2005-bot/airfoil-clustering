@@ -1,0 +1,1 @@
+exec env OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 .venv/bin/python scripts/coordinator_gabriel_big_registration_k2_k7_full_leftmost.py >> outputs/gabriel_big_registration_k2_k7_full_leftmost/stdout.log 2>> outputs/gabriel_big_registration_k2_k7_full_leftmost/stderr.log

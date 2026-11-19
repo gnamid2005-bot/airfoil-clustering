@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_saved_contours_match_reference_resampling": true,
+    "coefficient_smoothness_matches_reference": true,
+    "cubic_basis_matches_reference": true,
+    "exactly_nine_case_json_files": true,
+    "local_velocity_matches_reference": true,
+    "registration_defaults_match_reference_constants": true,
+    "rk4_flow_matches_reference": true
+  },
+  "cubic_basis_maximum_difference": 0.0,
+  "maximum_preprocessing_coordinate_difference": 0.0,
+  "reference_sha256": "17b6a21a6402e57849e9910cf8a4890519d965ed9e763d04c16c6987275cdf66",
+  "rk4_flow_maximum_difference": 0.0,
+  "saved_contours_checked": 1652,
+  "smoothness_absolute_difference": 0.0,
+  "status": "PASS",
+  "velocity_maximum_difference": 0.0
+}

@@ -1,0 +1,13 @@
+{
+  "failed": 0,
+  "mean_case_seconds": 8.182074493459737,
+  "new": 1652,
+  "projected_full_serial_hours": 3.7546630731098576,
+  "projected_full_wall_hours_at_workers": 0.9401512563888941,
+  "requested": 1652,
+  "reused": 0,
+  "smoke_coefficient_extraction_passed": true,
+  "valid": 1651,
+  "wall_seconds": 3384.5445230000187,
+  "workers": 4
+}

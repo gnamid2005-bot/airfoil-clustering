@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.tmp
+*.log
+
+# Expensive caches that are intentionally not part of the public repository.
+outputs/**/registrations/
+outputs/gabriel_big_registration_k2_k7_full_leftmost/coefficient_matrices/
+outputs/gabriel_big_registration_k8_k11/coefficient_matrices/
+

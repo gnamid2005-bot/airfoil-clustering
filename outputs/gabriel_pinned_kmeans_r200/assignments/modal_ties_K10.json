@@ -1,0 +1,50 @@
+{
+  "K": 10,
+  "modal_frequency": 36,
+  "n_tied_modal_partitions": 1,
+  "selected_representative_seed": 0,
+  "tied_partitions": [
+    {
+      "representative_seed": 0,
+      "seeds": [
+        0,
+        1,
+        4,
+        7,
+        9,
+        15,
+        17,
+        24,
+        26,
+        28,
+        32,
+        47,
+        50,
+        55,
+        61,
+        63,
+        65,
+        73,
+        84,
+        86,
+        93,
+        96,
+        99,
+        100,
+        102,
+        106,
+        113,
+        116,
+        117,
+        122,
+        125,
+        145,
+        152,
+        164,
+        186,
+        188
+      ],
+      "canonical_sha256": "a235b5438857c56f95470d9154a745f532a9ddd220b1ceaed365fc7f98f29016"
+    }
+  ]
+}

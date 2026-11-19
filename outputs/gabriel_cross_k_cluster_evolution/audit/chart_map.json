@@ -1,0 +1,6 @@
+{
+  "contingency_heatmaps": "counts and row-normalized overlap",
+  "mean_shape_evolution": "dominant successor and major secondary split means",
+  "moved_airfoils": "deterministic max-120 display; subgroup means use all members",
+  "sankey": "alluvial flows; nodes reordered by overlap barycenter"
+}

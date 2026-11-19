@@ -1,0 +1,11 @@
+new_cluster,new_n,largest_source_cluster,largest_source_n,largest_source_fraction,second_source_cluster,second_source_n,second_source_fraction,source_entropy,possible_merge,heuristic
+0,320,7,314,0.98125,1,4,0.0125,0.10506827897880036,False,possible merge if second source fraction >= 0.20
+1,24,2,22,0.9166666666666666,6,2,0.08333333333333333,0.2868359830561607,False,possible merge if second source fraction >= 0.20
+2,13,4,13,1.0,8,0,0.0,-0.0,False,possible merge if second source fraction >= 0.20
+3,384,0,361,0.9401041666666666,7,14,0.036458333333333336,0.2816890649466949,False,possible merge if second source fraction >= 0.20
+4,26,6,15,0.5769230769230769,3,10,0.38461538461538464,0.8101502323878818,True,possible merge if second source fraction >= 0.20
+5,117,5,104,0.8888888888888888,4,8,0.06837606837606838,0.42286303388910707,False,possible merge if second source fraction >= 0.20
+6,263,3,239,0.908745247148289,8,9,0.034220532319391636,0.41870801275083513,False,possible merge if second source fraction >= 0.20
+7,98,8,91,0.9285714285714286,7,4,0.04081632653061224,0.3060977908795796,False,possible merge if second source fraction >= 0.20
+8,226,1,196,0.8672566371681416,8,20,0.08849557522123894,0.5178027617195812,False,possible merge if second source fraction >= 0.20
+9,181,2,81,0.44751381215469616,5,76,0.4198895027624309,1.1697453163029912,True,possible merge if second source fraction >= 0.20

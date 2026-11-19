@@ -1,0 +1,49 @@
+{
+  "case_status_counts": {
+    "completed": 9
+  },
+  "checks": {
+    "all_cases_visible": true,
+    "all_eight_development_targets_matched": true,
+    "dataset_validation_passed": true,
+    "exactly_identity_plus_eight_cases": true,
+    "existing_output_tree_metadata_unchanged": true,
+    "identity_near_zero_and_trivial": true,
+    "integration_rows_complete": true,
+    "metric_identities_hold": true,
+    "new_data_from_raw_selig": true,
+    "no_commit_or_push_performed_by_script": true,
+    "no_full_population_registration": true,
+    "no_pca_gmm_templates": true,
+    "old_global_mean_byte_identical": true,
+    "old_processed_dataset_byte_identical": true,
+    "only_expected_parameter_count": true,
+    "registration_defaults_match_reference": true,
+    "registration_source_is_new_gabriel_mean": true,
+    "required_outputs_present": true,
+    "source_faithfulness_validation_passed": true,
+    "unit_tests_passed": true
+  },
+  "existing_outputs_metadata_after_excluding_new_experiment": {
+    "algorithm": "sha256(relative_path, size, mtime_ns)",
+    "digest": "31af49df9c93d7f7ba9b55efb7a6fc5060625de69eb8e72eaea7631eb15e9856",
+    "file_count": 15154,
+    "total_bytes": 1346740846
+  },
+  "existing_outputs_metadata_before": {
+    "algorithm": "sha256(relative_path, size, mtime_ns)",
+    "digest": "31af49df9c93d7f7ba9b55efb7a6fc5060625de69eb8e72eaea7631eb15e9856",
+    "file_count": 15154,
+    "total_bytes": 1346740846
+  },
+  "limitations": [
+    "Existing-output verification compares path, size and nanosecond mtime metadata; the protected old dataset and old mean are SHA-256 checked byte-for-byte.",
+    "Positive Jacobian values on a 101x101 numerical grid are evidence, not an analytical proof of diffeomorphism.",
+    "No subprocess in this experiment performs git commit or push."
+  ],
+  "old_dataset_sha256_after": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+  "old_dataset_sha256_before": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+  "old_mean_sha256_after": "ae46238010fee225bce3dbcdbf90944e8ce3c4cf44ebf664f0be3f1de36af2d5",
+  "old_mean_sha256_before": "ae46238010fee225bce3dbcdbf90944e8ce3c4cf44ebf664f0be3f1de36af2d5",
+  "status": "PASS"
+}

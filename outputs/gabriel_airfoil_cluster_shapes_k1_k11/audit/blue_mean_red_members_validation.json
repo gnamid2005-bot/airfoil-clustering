@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checks": {
+    "assignments_unchanged": true,
+    "cluster_sizes_unchanged": true,
+    "cluster_order_unchanged": true,
+    "means_numerically_identical": true,
+    "means_use_all_members": true,
+    "all_members_displayed": true,
+    "identical_axes": true,
+    "K_q_labels_correct": true,
+    "only_visual_style_and_legend_changed": true,
+    "no_scientific_recomputation": true,
+    "original_overview_not_overwritten": true,
+    "previous_with_members_not_overwritten": true
+  },
+  "style": {
+    "member_color": "#D62728",
+    "member_alpha": 0.04,
+    "member_linewidth": 0.3,
+    "mean_color": "#1565C0",
+    "mean_alpha": 1.0,
+    "mean_linewidth": 2.05
+  },
+  "axis_limits": {
+    "x": [
+      -0.025,
+      1.025
+    ],
+    "y": [
+      -0.37207684185053436,
+      0.3990471296649606
+    ]
+  },
+  "all_members_displayed": true,
+  "outputs": [
+    "source-workspace/outputs/gabriel_airfoil_cluster_shapes_k1_k11/figures/overview/airfoil_cluster_means_K01_K11_blue_mean_red_members.png",
+    "source-workspace/outputs/gabriel_airfoil_cluster_shapes_k1_k11/figures/overview/airfoil_cluster_means_K01_K11_blue_mean_red_members.pdf",
+    "source-workspace/outputs/gabriel_airfoil_cluster_shapes_k1_k11/figures/overview/airfoil_cluster_means_K01_K11_blue_mean_red_members.svg"
+  ]
+}

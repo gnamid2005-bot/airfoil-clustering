@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "cluster_sizes_unchanged": true,
+    "flow_counts_unchanged": true,
+    "adjacent_flow_totals_1652": true,
+    "raw_labels_unchanged": true,
+    "columns_size_descending": true,
+    "lineage_from_overlap_not_labels": true,
+    "dominant_continuations_same_colour": true,
+    "no_PCA_GMM_registration": true,
+    "original_sankey_not_overwritten": true
+  },
+  "source_assignment_hashes": {
+    "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27_labels.npy": "ed1c65d5c74983f006e55afe06b462b945db269c89a754f01090e824758b5e1c",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14_labels.npy": "a1d341966b5dd7e24d10a691a6699a0b194c6733ce754420acfc7efc67bc4fd6",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17_labels.npy": "0e39e9b72e9cdd3ed3c3d278aa5f54c2e40e73627a707f02a7b61576afde07f6",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15_labels.npy": "6a41068a34a89717cec10ecb78910c89b1f4beb3fadc5d4bbe94018f1f5581b6"
+  },
+  "flow_totals": {
+    "K8_K9": 1652,
+    "K9_K10": 1652,
+    "K10_K11": 1652
+  },
+  "colour_rule": "K8 distinct base colours; child inherits dominant-parent lineage; largest-flow child gets exact parent colour; additional children get progressively lighter shades; merges use largest-source parent with no blending",
+  "ordering_rule": "cluster size descending within every K; raw label breaks exact ties"
+}

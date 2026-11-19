@@ -1,0 +1,272 @@
+{
+  "status": "PASS",
+  "checks": {
+    "K1_all_samples_no_GMM": true,
+    "K2_K11_existing_assignments": true,
+    "canonical_identity_order": true,
+    "all_cluster_sizes_sum_N": true,
+    "means_use_all_members": true,
+    "subsampling_display_only": true,
+    "identical_axis_scales": true,
+    "no_registration_PCA_GMM": true,
+    "original_outputs_not_overwritten": true,
+    "q_manifest_recorded": true,
+    "source_files_unchanged": true
+  },
+  "N": 1652,
+  "points_per_contour": 200,
+  "q_by_K": {
+    "1": null,
+    "2": 1,
+    "3": 89,
+    "4": 5,
+    "5": 3,
+    "6": 2,
+    "7": 5,
+    "8": 27,
+    "9": 14,
+    "10": 17,
+    "11": 15
+  },
+  "axis_limits": {
+    "x": [
+      -0.025,
+      1.025
+    ],
+    "y": [
+      -0.37207684185053436,
+      0.3990471296649606
+    ]
+  },
+  "subsampling": {
+    "threshold": 150,
+    "maximum_displayed": 150,
+    "seed": 20260908
+  },
+  "cluster_sizes": {
+    "1": [
+      1652
+    ],
+    "2": [
+      1617,
+      35
+    ],
+    "3": [
+      1102,
+      243,
+      307
+    ],
+    "4": [
+      162,
+      1204,
+      155,
+      131
+    ],
+    "5": [
+      66,
+      124,
+      665,
+      558,
+      239
+    ],
+    "6": [
+      530,
+      131,
+      506,
+      57,
+      250,
+      178
+    ],
+    "7": [
+      154,
+      423,
+      440,
+      410,
+      10,
+      99,
+      116
+    ],
+    "8": [
+      437,
+      288,
+      341,
+      175,
+      252,
+      16,
+      31,
+      112
+    ],
+    "9": [
+      380,
+      209,
+      106,
+      257,
+      21,
+      190,
+      17,
+      350,
+      122
+    ],
+    "10": [
+      320,
+      24,
+      13,
+      384,
+      26,
+      117,
+      263,
+      98,
+      226,
+      181
+    ],
+    "11": [
+      198,
+      163,
+      17,
+      246,
+      12,
+      333,
+      108,
+      351,
+      10,
+      94,
+      120
+    ]
+  },
+  "size_order_raw_labels": {
+    "1": [
+      0
+    ],
+    "2": [
+      0,
+      1
+    ],
+    "3": [
+      0,
+      2,
+      1
+    ],
+    "4": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "5": [
+      2,
+      3,
+      4,
+      1,
+      0
+    ],
+    "6": [
+      0,
+      2,
+      4,
+      5,
+      1,
+      3
+    ],
+    "7": [
+      2,
+      1,
+      3,
+      0,
+      6,
+      5,
+      4
+    ],
+    "8": [
+      0,
+      2,
+      1,
+      4,
+      3,
+      7,
+      6,
+      5
+    ],
+    "9": [
+      0,
+      7,
+      3,
+      1,
+      5,
+      8,
+      2,
+      4,
+      6
+    ],
+    "10": [
+      3,
+      0,
+      6,
+      8,
+      9,
+      5,
+      7,
+      4,
+      1,
+      2
+    ],
+    "11": [
+      7,
+      5,
+      3,
+      0,
+      1,
+      10,
+      6,
+      9,
+      2,
+      4,
+      8
+    ]
+  },
+  "assignment_sources": {
+    "1": "K=1 baseline: all canonical contours; no fitted GMM",
+    "2": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K02_q01.csv",
+    "3": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K03_q89.csv",
+    "4": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K04_q05.csv",
+    "5": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K05_q03.csv",
+    "6": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K06_q02.csv",
+    "7": "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K07_q05.csv",
+    "8": "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27.csv",
+    "9": "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14.csv",
+    "10": "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17.csv",
+    "11": "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15.csv"
+  },
+  "source_hashes": {
+    "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K02_q01.csv": "28d5ad1509cab847849a75afe02fca2f95a0096ce7d54e75528b58d6c670f14f",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K02_q01_labels.npy": "16fcfd518d3c743e4bb5a4beef770acf5c9809e813f743cd129bf40a608aaf33",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K02_q01/all_templates.npz": "5e54dcf863185cb6bf8e2196e1203f2dde3cf4571f1f3eb46550ddc341d74b23",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K03_q89.csv": "fb7e4e90cdba8b63c595335e3df82f1bd7d1e484793d609274307804cbb7dc2a",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K03_q89_labels.npy": "26d81da82aabde852ef964309c7c4f1fc1381985d692b5b7a4126e68460cc41f",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K03_q89/all_templates.npz": "df7cc3c0aaf5502ee1355c6a43c5a0dafc15a5a473608bc9ee63699056ebaac3",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K04_q05.csv": "0767089cbc36b9b39f65dc3afce61dcb6a635f0be72c55ae7e6bda5e8a396dbc",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K04_q05_labels.npy": "903763a59f98facb55007a47799b122dcae1d122c4f850f1139b93075ac866d1",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K04_q05/all_templates.npz": "30e41ad61be0958bcb2f9ee03bd46f56acd77d58d38d6b610ac74e5f77796c2d",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K05_q03.csv": "f139e69f34be61590cb36610362cd35350ac2f59fbf0258baf8dfa5fd9bf549b",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K05_q03_labels.npy": "7c2a708ea579193266d8d2806a573121401f1563d816fb5bc8ea78473d532e88",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K05_q03/all_templates.npz": "13f7ecfce1ee24af26bdd7e70140a8f611af43d802c7c91420b19e3d60a22740",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K06_q02.csv": "e53db8a5c741814ab7089cb6f7a96646f70d5cede0b6fb2f7b02867e1bd6b514",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K06_q02_labels.npy": "6b6044f2c27d71252f9493f65e4a39383e17f79ea7bf347a82356b162856fdb4",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K06_q02/all_templates.npz": "43c23367867093291f46ed8d04b977d944ca5f4c449ba8742f21eee4f96e8d54",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K07_q05.csv": "3f89bd3fb38d4d2aebf31c3305ecd031207f3d7501416d480136677383a7c35e",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/assignments/K07_q05_labels.npy": "0fde6eb859de789e7b7ce1e1daa8b8914a56e5a2aae84e2387ef7cd5a821cc11",
+    "outputs/gabriel_big_registration_k2_k7_full_leftmost/templates/K07_q05/all_templates.npz": "7f1be3f4be1ed35afb99c45be13be5221cb7e223892d03b6e332b57a059f3e4f",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27.csv": "970a2ce55cfa504f6eaeda7c0a7431bc466f93231638e854a49e8bb0bec332f1",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K08_q27_labels.npy": "ed1c65d5c74983f006e55afe06b462b945db269c89a754f01090e824758b5e1c",
+    "outputs/gabriel_big_registration_k8_k11/templates/K08_q27/all_templates.npz": "fc943111a09669965c4533e9a2462c3400604301fd5d89348fb86f36cf8c6083",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14.csv": "1e7ed17aaa7a6e9baff63da4aa1abd24cece8f8afe55272931f61b172f51ba30",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K09_q14_labels.npy": "a1d341966b5dd7e24d10a691a6699a0b194c6733ce754420acfc7efc67bc4fd6",
+    "outputs/gabriel_big_registration_k8_k11/templates/K09_q14/all_templates.npz": "1d16ad83feabc119caa3c5c0f2d0cf709b52634299ea27808b242b523303e379",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17.csv": "7c2ceaf1dea2ceb26b49dfe76413440ac01b6644438b6815806784b93ac32312",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K10_q17_labels.npy": "0e39e9b72e9cdd3ed3c3d278aa5f54c2e40e73627a707f02a7b61576afde07f6",
+    "outputs/gabriel_big_registration_k8_k11/templates/K10_q17/all_templates.npz": "ccab3d1e1197d30ec368821000a87e87d17e74ceacd7ca3b384da36377ee6a01",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15.csv": "e18281272f4fdaa9801091649af7b2b1dd459a6ee774d53624211be070d7a4ea",
+    "outputs/gabriel_big_registration_k8_k11/assignments/K11_q15_labels.npy": "6a41068a34a89717cec10ecb78910c89b1f4beb3fadc5d4bbe94018f1f5581b6",
+    "outputs/gabriel_big_registration_k8_k11/templates/K11_q15/all_templates.npz": "5bd0f92fbd5b9d8b925e95781ad42f9259b0a18963f06530dee3af2d737eb5c3"
+  }
+}

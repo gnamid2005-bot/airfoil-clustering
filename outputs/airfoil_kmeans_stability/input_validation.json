@@ -1,0 +1,31 @@
+{
+  "all_samples_same_dimensionality": true,
+  "all_values_finite": true,
+  "archive_keys": [
+    "shapes",
+    "filenames",
+    "names",
+    "original_point_counts"
+  ],
+  "array_shape": [
+    1654,
+    200,
+    2
+  ],
+  "dtype_used": "float64",
+  "flatten_order": "NumPy C order: [point0_x, point0_y, point1_x, point1_y, ...]",
+  "flattened_dimension": 400,
+  "infinite_count": 0,
+  "input_path": "data/airfoils/processed/airfoils_n100_seed0.npz",
+  "input_sha256": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+  "lower_surface_points": 100,
+  "n_airfoils": 1654,
+  "nan_count": 0,
+  "points_per_airfoil": 200,
+  "pointwise_correspondence_established": true,
+  "upper_surface_points": 100,
+  "x_coordinate_dimensions_constant_exact": 200,
+  "x_coordinate_max_variance": 1.0654059563075528e-27,
+  "x_coordinate_zero_variance_dimensions_from_np_var": 12,
+  "x_coordinates_identical_across_airfoils_exact": true
+}

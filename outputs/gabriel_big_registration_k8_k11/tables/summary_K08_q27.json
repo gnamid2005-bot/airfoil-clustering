@@ -1,0 +1,24 @@
+{
+  "K": 8,
+  "SE_Dirichlet": 0.0007617676941324549,
+  "SE_SVF_magnitude": 0.0001793386393788106,
+  "coefficient_shape": [
+    1652,
+    1800
+  ],
+  "completed": 1652,
+  "corrupted_or_missing": 0,
+  "failed": 0,
+  "invalid": 0,
+  "mean_Dirichlet": 0.006843670117768311,
+  "mean_MSE": 6.9572491878383135e-06,
+  "mean_SVF_magnitude": 0.009051136183350949,
+  "median_MSE": 1.069710867728529e-08,
+  "minimum_Jacobian": 0.018568345675869655,
+  "p95_MSE": 4.48424581808107e-05,
+  "q": 27,
+  "sample_order_preserved": true,
+  "total": 1652,
+  "valid": 1652,
+  "wall_seconds_new_run": 3304.2022257500794
+}

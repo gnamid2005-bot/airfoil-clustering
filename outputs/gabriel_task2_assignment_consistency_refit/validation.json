@@ -1,0 +1,20 @@
+{
+  "GMM_cells_completed": 400,
+  "GMM_cells_expected": 400,
+  "PCA_refit": false,
+  "all_converged": true,
+  "big_registration_assignment_source_used": false,
+  "common_filenames_exact_order": true,
+  "common_sample_count": 1651,
+  "excluded_Kulfan_filename": "fx79w660a.dat",
+  "excluded_Kulfan_index": 513,
+  "maximum_metric_absolute_differences": {
+    "abs_diff_BIC": 5.326000973582268e-09,
+    "abs_diff_ICL": 5.326000973582268e-09,
+    "abs_diff_heldout_LL": 3.9807446228223853e-10
+  },
+  "metric_gate_passed": true,
+  "original_outputs_modified": false,
+  "registration_run": false,
+  "status": "PASS"
+}

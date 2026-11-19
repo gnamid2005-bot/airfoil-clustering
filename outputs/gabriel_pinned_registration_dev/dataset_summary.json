@@ -1,0 +1,63 @@
+{
+  "conversion_failures": 13,
+  "development_targets_matched": 8,
+  "development_targets_required": 8,
+  "duplicate_existing_filename_conflicts": {},
+  "duplicate_raw_filename_conflicts": [],
+  "failure_reason_counts": {
+    "excluded_filename_token": 5,
+    "reference_filter:normalised_y_exceeds_0.5": 1,
+    "reference_filter:short_or_nonpositive_chord": 2,
+    "validation_reject:self_intersection": 4,
+    "validation_reject:unexpected_or_reversed_selig_traversal": 1
+  },
+  "final_dataset_accepted": 1652,
+  "final_rejected": 13,
+  "matching_existing_1654_filenames": 1644,
+  "missing_development_targets": [],
+  "new_dataset_path": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "orientation_repairs": 0,
+  "present_only_in_existing_dataset": [
+    "30p-30n-flap.dat",
+    "30p-30n-main.dat",
+    "30p-30n-slat.dat",
+    "e378.dat",
+    "fx62k131.dat",
+    "fx63147.dat",
+    "mh150.dat",
+    "r1145msf.dat",
+    "s1221-4deg-flap.dat",
+    "ua79sff.dat"
+  ],
+  "present_only_in_existing_dataset_count": 10,
+  "present_only_in_gabriel_dataset": [
+    "bacnlf.dat",
+    "hs1430.dat",
+    "s4096.dat",
+    "ste87151.dat",
+    "ste87391.dat",
+    "stf86361.dat",
+    "t16.dat",
+    "tsagi_r3a.dat"
+  ],
+  "present_only_in_gabriel_dataset_count": 8,
+  "raw_dat_files_inspected": 1665,
+  "reference_filter_accepted": 1657,
+  "representation": {
+    "closure": "implicit segment index 199 to index 0; no duplicated 201st point",
+    "index_0": "trailing edge; first upper-surface sample",
+    "index_100": "leading edge; first lower-surface sample",
+    "indices_0_99": "upper surface, TE toward LE, uniform polyline arc coordinates",
+    "indices_100_199": "lower surface, LE toward TE, uniform polyline arc coordinates",
+    "shape": [
+      200,
+      2
+    ]
+  },
+  "warning_counts_among_accepted": {
+    "duplicated_raw_te_endpoint": 1027,
+    "finite_or_blunt_trailing_edge": 135,
+    "multiple_exact_min_x_points": 32,
+    "multiple_near_min_x_points": 36
+  }
+}

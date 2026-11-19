@@ -1,0 +1,5 @@
+K,selected_q,agreement_count,disagreement_count,svf_mean_max_responsibility_agreement,svf_mean_max_responsibility_disagreement,kulfan_confidence_available,kulfan_mean_max_responsibility_agreement,kulfan_mean_max_responsibility_disagreement
+8,27,712,939,0.9940058588981628,0.9855999946594238,False,,
+9,14,810,841,0.9866394996643066,0.9756479859352112,False,,
+10,17,566,1085,0.9889326691627502,0.9868764877319336,True,0.9272394286398182,0.9088373341422682
+11,15,610,1041,0.9789340496063232,0.9823465943336487,True,0.9337379212846509,0.8963092941003775

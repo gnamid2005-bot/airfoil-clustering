@@ -1,0 +1,38 @@
+{
+  "N": 1652,
+  "checks": {
+    "contingency_totals": true,
+    "intended_K_q": true,
+    "marginal_cluster_sizes": true,
+    "means_use_all_members": true,
+    "no_commit_or_push": true,
+    "no_raw_label_correspondence_assumption": true,
+    "no_registration_PCA_GMM_run": true,
+    "normalized_rows": true,
+    "same_identity_order": true,
+    "sankey_transition_totals": true,
+    "source_files_unchanged": true
+  },
+  "conclusion": "H2 \u2014 hierarchical refinement/splitting",
+  "major_movement_figures": [
+    "K8_c0_to_K9_c0_vs_c7.png",
+    "K8_c1_to_K9_c3_vs_c7.png",
+    "K8_c2_to_K9_c7_vs_c8.png",
+    "K8_c3_to_K9_c5_vs_c0.png",
+    "K8_c4_to_K9_c1_vs_c7.png",
+    "K8_c7_to_K9_c2_vs_c5.png",
+    "K9_c2_to_K10_c9_vs_c1.png",
+    "K9_c5_to_K10_c5_vs_c9.png",
+    "K9_c8_to_K10_c7_vs_c8.png",
+    "K10_c3_to_K11_c7_vs_c10.png",
+    "K10_c5_to_K11_c10_vs_c1.png",
+    "K10_c8_to_K11_c0_vs_c5.png",
+    "K10_c9_to_K11_c1_vs_c6.png"
+  ],
+  "status": "PASS",
+  "trajectory_counts": {
+    "one_structural_split": 387,
+    "repeated_reassignment": 323,
+    "very_stable": 942
+  }
+}

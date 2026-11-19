@@ -1,0 +1,24 @@
+{
+  "N_invalid": 1,
+  "N_valid": 1651,
+  "bic_icl_agreement_rate": 0.96,
+  "checks": {
+    "GMM_fit_training_scores_only": true,
+    "PCA_fit_training_only": true,
+    "PCA_input_is_registration_coefficients": true,
+    "all_2000_cells": true,
+    "all_GMM_cells_converged": true,
+    "all_coefficients_same_global_mean": true,
+    "all_model_values_finite": true,
+    "coefficient_matrix_finite": true,
+    "coefficient_matrix_is_N_by_1800": true,
+    "dataset_is_Gabriel_pinned": true,
+    "exactly_one_global_mean": true,
+    "protected_outputs_unchanged": true,
+    "raw_shape_coordinates_absent_from_X_field": true,
+    "sample_order_preserved": true
+  },
+  "heldout_count": 329,
+  "status": "PASS",
+  "train_count": 1322
+}

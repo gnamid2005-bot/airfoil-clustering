@@ -1,0 +1,5 @@
+K,selected_q,BIC_selects_K,ICL_selects_K,rule
+8,27,True,True,smallest q > 10 where BIC and/or ICL preferred K
+9,14,True,True,smallest q > 10 where BIC and/or ICL preferred K
+10,17,True,True,smallest q > 10 where BIC and/or ICL preferred K
+11,15,True,True,smallest q > 10 where BIC and/or ICL preferred K

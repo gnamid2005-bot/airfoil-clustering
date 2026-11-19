@@ -1,0 +1,73 @@
+{
+  "all_arc_length_checks_pass": true,
+  "all_counterclockwise": true,
+  "all_finite": true,
+  "all_index0_te": true,
+  "all_index100_le": true,
+  "all_lower_ordered": true,
+  "all_no_self_intersection": true,
+  "all_no_zero_segments": true,
+  "all_upper_ordered": true,
+  "all_valid": true,
+  "contour_array_shape": [
+    1652,
+    200,
+    2
+  ],
+  "dtype": "float64",
+  "metric_summaries": {
+    "closure_segment_length": {
+      "maximum": 0.013615159948604738,
+      "median": 0.010057040569014651,
+      "minimum": 0.0038909035270152208,
+      "p95": 0.010259754264509154
+    },
+    "lower_segment_cv": {
+      "maximum": 0.06414460633816091,
+      "median": 0.003876419111376377,
+      "minimum": 4.852654200235656e-06,
+      "p95": 0.02823739320055225
+    },
+    "lower_segment_p95_relative_deviation": {
+      "maximum": 0.007249487627661185,
+      "median": 0.0005004398684256446,
+      "minimum": 1.3844871407520829e-06,
+      "p95": 0.0032082770241431495
+    },
+    "minimum_segment_length": {
+      "maximum": 0.01283835339742158,
+      "median": 0.009709004645255443,
+      "minimum": 0.0038909035270152208,
+      "p95": 0.010094014911304095
+    },
+    "signed_area": {
+      "maximum": 0.5227023472305329,
+      "median": 0.07767241800077201,
+      "minimum": 0.00618902680740744,
+      "p95": 0.13024293639110257
+    },
+    "upper_segment_cv": {
+      "maximum": 0.038921497855165105,
+      "median": 0.0011769528135179576,
+      "minimum": 2.8652348907645573e-05,
+      "p95": 0.003059022023322434
+    },
+    "upper_segment_p95_relative_deviation": {
+      "maximum": 0.005354156595991467,
+      "median": 0.0003158380977243304,
+      "minimum": 2.723363312520077e-05,
+      "p95": 0.0009815165188230273
+    }
+  },
+  "status": "PASS",
+  "validation_thresholds": {
+    "arc_segment_cv": "<=0.10",
+    "arc_segment_p95_relative_deviation": "<=0.02",
+    "index0_te_x": ">=0.98",
+    "index100_le_abs_x": "<=1e-10",
+    "minimum_segment_length": ">1e-12",
+    "self_intersections": "0",
+    "signed_area": ">1e-8",
+    "surface_direction_fraction": ">=0.8"
+  }
+}

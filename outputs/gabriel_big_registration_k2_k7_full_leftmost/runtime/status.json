@@ -1,0 +1,13 @@
+{
+  "completed": 9912,
+  "coordinator_pid": 25076,
+  "current_K": null,
+  "current_q": null,
+  "message": "all_complete",
+  "phase": "complete",
+  "started_epoch": 1788125126.933471,
+  "status": "PASS",
+  "total": 9912,
+  "updated_at": "2026-08-31T02:58:03.566022+00:00",
+  "workers": 0
+}

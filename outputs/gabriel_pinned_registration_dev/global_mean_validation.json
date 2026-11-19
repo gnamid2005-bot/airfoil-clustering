@@ -1,0 +1,46 @@
+{
+  "approximately_uniform_arc_length": true,
+  "closure_segment_length": 0.008865305292559156,
+  "dtype": "float64",
+  "failure_reason": "",
+  "finite": true,
+  "global_mean_npy_sha256": "7c2c386f1088ae952747a24a4dddf075972aa344242a564e8a97d57ed3ce9b00",
+  "index0": [
+    0.9999931091012635,
+    0.0010018927588808617
+  ],
+  "index0_is_te": true,
+  "index100": [
+    0.0,
+    0.000813399126389244
+  ],
+  "index100_is_le": true,
+  "index199": [
+    0.9912210882371996,
+    -0.00028079500152874525
+  ],
+  "index99": [
+    0.0043132726149028005,
+    0.009938956074562744
+  ],
+  "lower_expected_direction_fraction": 1.0,
+  "lower_segment_cv": 0.01474161939497776,
+  "lower_segment_max_relative_deviation": 0.1201429876189665,
+  "lower_segment_p95_relative_deviation": 0.013901061889791472,
+  "minimum_segment_length": 0.008865305292559156,
+  "no_zero_length_segments": true,
+  "orientation": "counterclockwise",
+  "population_size": 1652,
+  "self_intersection_count": 0,
+  "shape_valid": true,
+  "signed_area": 0.07983430270841348,
+  "source_dataset": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "upper_expected_direction_fraction": 1.0,
+  "upper_is_above_lower": true,
+  "upper_segment_cv": 0.006343672195662418,
+  "upper_segment_max_relative_deviation": 0.03122376160094436,
+  "upper_segment_p95_relative_deviation": 0.0121507928956384,
+  "valid": true,
+  "x_max": 0.9999931091012635,
+  "x_min": 0.0
+}

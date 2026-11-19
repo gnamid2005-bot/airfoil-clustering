@@ -1,0 +1,153 @@
+{
+  "chart_map": [
+    {
+      "figure": "dataset_qa_development_targets.png",
+      "question": "Are fixed targets ordered TE-upper-LE-lower-TE?",
+      "type": "small multiples"
+    },
+    {
+      "figure": "registration_overlays.png",
+      "question": "How closely does the mean deform to each target?",
+      "type": "shape overlays"
+    },
+    {
+      "figure": "residuals_before_after.png",
+      "question": "Where does correspondence error remain?",
+      "type": "point-index line"
+    },
+    {
+      "figure": "accuracy_by_target.png",
+      "question": "How do accuracy metrics vary by target?",
+      "type": "grouped panels"
+    },
+    {
+      "figure": "optimisation_trace.png",
+      "question": "How do attachment and regularisation evolve?",
+      "type": "log lines"
+    },
+    {
+      "figure": "representative_deformation_grids.png",
+      "question": "What spatial deformations are learned?",
+      "type": "deformed grids"
+    },
+    {
+      "figure": "worst_case_jacobian.png",
+      "question": "Where is sampled diffeomorphic safety weakest?",
+      "type": "heatmap"
+    },
+    {
+      "figure": "rk_integration_convergence.png",
+      "question": "Is RK5 adequate after fitting?",
+      "type": "bar panels"
+    }
+  ],
+  "created_unix_time": 1787044776.80179,
+  "diagnostic_grid": {
+    "bending": "trapezoidal integral of squared componentwise velocity Laplacian",
+    "jacobian_method": "second-order finite differences of sampled RK4 deformation",
+    "physical_dirichlet": "trapezoidal integral of squared spatial velocity derivatives",
+    "resolution": 101,
+    "xlim": [
+      -0.05,
+      1.05
+    ],
+    "ylim": [
+      -0.35,
+      0.35
+    ]
+  },
+  "existing_outputs_metadata_before": {
+    "algorithm": "sha256(relative_path, size, mtime_ns)",
+    "digest": "31af49df9c93d7f7ba9b55efb7a6fc5060625de69eb8e72eaea7631eb15e9856",
+    "file_count": 15154,
+    "total_bytes": 1346740846
+  },
+  "experiment": "Gabriel pinned arc-length preprocessing and development registration",
+  "fixed_existing_indices": [
+    -1,
+    382,
+    104,
+    959,
+    362,
+    1489,
+    377,
+    1224,
+    518
+  ],
+  "fixed_filenames": [
+    "GLOBAL_MEAN",
+    "e853.dat",
+    "atr72sm.dat",
+    "hh02.dat",
+    "e664.dat",
+    "s6063.dat",
+    "e837.dat",
+    "n66021.dat",
+    "fx79w660a.dat"
+  ],
+  "new_dataset": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "new_dataset_sha256": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+  "old_dataset": "data/airfoils/processed/airfoils_n100_seed0.npz",
+  "old_dataset_sha256_before": "9ec711663c4d3bde214f2ac6359591b644e5d66e849811c9fb728b593a5df2d7",
+  "old_mean_sha256_before": "ae46238010fee225bce3dbcdbf90944e8ce3c4cf44ebf664f0be3f1de36af2d5",
+  "parameter_count": 1800,
+  "raw_root": "data/airfoils/raw/coord_seligFmt/coord_seligFmt",
+  "reference_behaviour": {
+    "endpoint_convention": "upper includes TE and excludes LE; lower includes LE and excludes closing TE",
+    "excluded_filename_tokens": [
+      "flap",
+      "main-flap",
+      "slat",
+      "30p-30n"
+    ],
+    "file_order": "sorted non-recursive *.dat filenames",
+    "leading_edge_rule": "first argmin(normalised x)",
+    "lower_segment": "raw coordinates [LE:] followed by raw first point, expected LE->lower->TE",
+    "normalisation": "coords = (coords - [min(x), 0]) / (max(x)-min(x))",
+    "parser": "skip first line; parse only subsequent lines with exactly two whitespace tokens",
+    "reference_scalar_filters": [
+      "20 <= point_count <= 5000",
+      "max(abs(raw_coordinate)) <= 1e3",
+      "x_chord = max(x)-min(x) >= 0.5",
+      "after normalisation max(abs(y)) <= 0.5"
+    ],
+    "registration": {
+      "adaptive_lambda": "cycle 1 lambda=0.1; later min(0.2*attachment/max(smoothness,1e-12),0.1)",
+      "attachment": "mean over 200 points of squared 2D correspondence distance",
+      "flow": "stationary ODE integrated by classical RK4, 5 steps on [0,1]",
+      "optimiser": "8 cycles of PyTorch LBFGS, max_iter=100, strong_wolfe",
+      "regulariser": "unscaled first differences of coefficient lattice on both axes",
+      "velocity": "30x30x2 tensor-product cardinal cubic B-spline coefficients"
+    },
+    "resampling": "per-segment cumulative polyline arc length; linspace(0,L,n+1)[:n]",
+    "upper_segment": "raw coordinates [0:LE+1], expected TE->upper->LE"
+  },
+  "reference_file": "downloads/pinned_registration.py",
+  "reference_sha256": "17b6a21a6402e57849e9910cf8a4890519d965ed9e763d04c16c6987275cdf66",
+  "registration_config": {
+    "grid_n": 30,
+    "grid_xlim": [
+      -0.05,
+      1.05
+    ],
+    "grid_ylim": [
+      -0.35,
+      0.35
+    ],
+    "lambda_init": 0.1,
+    "line_search": "strong_wolfe",
+    "max_lbfgs_iterations_per_cycle": 100,
+    "n_cycles": 8,
+    "regularisation_fraction": 0.2,
+    "rk_steps": 5,
+    "tolerance_change": 1e-14,
+    "tolerance_grad": 1e-14
+  },
+  "residual_regions": {
+    "LE": "indices 90-109",
+    "TE": "indices 0-9 and 190-199",
+    "mid": "indices 10-89 and 110-189"
+  },
+  "root": "user-home/svf-bunny-registration",
+  "scope": "identity plus eight fixed development targets only"
+}

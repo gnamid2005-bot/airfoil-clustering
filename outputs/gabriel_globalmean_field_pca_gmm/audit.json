@@ -1,0 +1,116 @@
+{
+  "coefficient_tensor_shape": [
+    30,
+    30,
+    2
+  ],
+  "contours_shape": [
+    1652,
+    200,
+    2
+  ],
+  "dataset": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "dataset_sha256": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+  "dtype": "float64",
+  "exactly_one_global_mean": true,
+  "filenames_sha256": "aa9d1083a1fb6dbe2961e6353a4ed83f5e4dcd0ba740c0090b0943c7b7480fa1",
+  "finite": true,
+  "flattening": "numpy C order: control_x major, then control_y, then component [x,y]",
+  "global_mean_coordinates_sha256": "364c0600c4e37e57c6010ff8f303bedefbc40052c65a7951f4c33c1075a9ddb3",
+  "global_mean_geometry": {
+    "approximately_uniform_arc_length": true,
+    "closure_segment_length": 0.008865305292559156,
+    "dtype": "float64",
+    "failure_reason": "",
+    "finite": true,
+    "index0": [
+      0.9999931091012635,
+      0.0010018927588808617
+    ],
+    "index0_is_te": true,
+    "index100": [
+      0.0,
+      0.000813399126389244
+    ],
+    "index100_is_le": true,
+    "index199": [
+      0.9912210882371996,
+      -0.00028079500152874525
+    ],
+    "index99": [
+      0.0043132726149028005,
+      0.009938956074562744
+    ],
+    "lower_expected_direction_fraction": 1.0,
+    "lower_segment_cv": 0.01474161939497776,
+    "lower_segment_max_relative_deviation": 0.1201429876189665,
+    "lower_segment_p95_relative_deviation": 0.013901061889791472,
+    "minimum_segment_length": 0.008865305292559156,
+    "no_zero_length_segments": true,
+    "orientation": "counterclockwise",
+    "self_intersection_count": 0,
+    "shape_valid": true,
+    "signed_area": 0.07983430270841348,
+    "upper_expected_direction_fraction": 1.0,
+    "upper_is_above_lower": true,
+    "upper_segment_cv": 0.006343672195662418,
+    "upper_segment_max_relative_deviation": 0.03122376160094436,
+    "upper_segment_p95_relative_deviation": 0.0121507928956384,
+    "valid": true,
+    "x_max": 0.9999931091012635,
+    "x_min": 0.0
+  },
+  "global_mean_method": "pointwise arithmetic mean over all 1652 Gabriel pinned contours",
+  "global_mean_shape": [
+    200,
+    2
+  ],
+  "gmm": {
+    "ICL": "BIC + 2 * positive posterior classification entropy",
+    "covariance_type": "full",
+    "init_params": "kmeans",
+    "max_iter": 500,
+    "n_init": 5,
+    "random_state": 20260813,
+    "reg_covar": 1e-07,
+    "tol": 1e-05
+  },
+  "npz_keys": [
+    "contours",
+    "filenames",
+    "gabriel_indices",
+    "matching_existing_dataset_indices",
+    "raw_source_paths",
+    "raw_source_sha256",
+    "preprocessing_configuration_json",
+    "representation_definition_json"
+  ],
+  "pca_input": "REGISTRATION-DERIVED B-SPLINE COEFFICIENTS ONLY (never contour coordinates)",
+  "protected_outputs_before": {
+    "algorithm": "sha256(path,size,mtime_ns)",
+    "digest": "a0482073408b6ab285850e5041fab3fc0e93b586b74355ae6ecdbd71d6db4785",
+    "file_count": 40265
+  },
+  "registration_config": {
+    "grid_n": 30,
+    "grid_xlim": [
+      -0.05,
+      1.05
+    ],
+    "grid_ylim": [
+      -0.35,
+      0.35
+    ],
+    "lambda_init": 0.1,
+    "line_search": "strong_wolfe",
+    "max_lbfgs_iterations_per_cycle": 100,
+    "n_cycles": 8,
+    "regularisation_fraction": 0.2,
+    "rk_steps": 5,
+    "tolerance_change": 1e-14,
+    "tolerance_grad": 1e-14
+  },
+  "registration_direction": "source=single global mean; target=individual airfoil; flow(source)->target",
+  "registration_function": "src/gabriel_pinned_registration.py::optimise_registration",
+  "sample_order": "exact stored NPZ order"
+}

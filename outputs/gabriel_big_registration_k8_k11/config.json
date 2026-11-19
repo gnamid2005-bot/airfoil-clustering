@@ -1,0 +1,72 @@
+{
+  "GMM": {
+    "covariance_type": "full",
+    "init_params": "kmeans",
+    "max_iter": 500,
+    "n_init": 5,
+    "random_state": 20260813,
+    "reg_covar": 1e-07,
+    "tol": 1e-05
+  },
+  "coefficient_shape": [
+    30,
+    30,
+    2
+  ],
+  "dataset": "data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz",
+  "dataset_sha256": "f357610c338b7a820c1f09522052d29951e9e62e41d3faffc61de19621995e33",
+  "diagnostic_resolution": 101,
+  "experiment": "Gabriel big registration first execution stage",
+  "features": "PCA scores of existing single-global-mean Gabriel B-spline coefficients",
+  "flatten": "C order control_x,control_y,component[x,y]",
+  "observed_external_metadata_drift": "outputs/gabriel_k2_k8_energy_magnitude/registrations/.DS_Store changed during the long run; no scientific protected file changed",
+  "pairs": [
+    [
+      8,
+      27
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      11,
+      15
+    ]
+  ],
+  "protected_before": {
+    "algorithm": "sha256(path,size,mtime_ns)",
+    "digest": "e7c4a603ca3ba2d48d01a8fe150ed3c5292f493dffe44a18379994eb7faae567",
+    "file_count": 41538
+  },
+  "protected_fingerprint_exclusions": [
+    ".DS_Store (volatile macOS/Finder metadata)"
+  ],
+  "registration": {
+    "grid_n": 30,
+    "grid_xlim": [
+      -0.05,
+      1.05
+    ],
+    "grid_ylim": [
+      -0.35,
+      0.35
+    ],
+    "lambda_init": 0.1,
+    "line_search": "strong_wolfe",
+    "max_lbfgs_iterations_per_cycle": 100,
+    "n_cycles": 8,
+    "regularisation_fraction": 0.2,
+    "rk_steps": 5,
+    "tolerance_change": 1e-14,
+    "tolerance_grad": 1e-14
+  },
+  "second_stage_PCA_GMM_run": false,
+  "selection_rule": "smallest q > 10 where BIC and/or ICL preferred K",
+  "source_experiment": "outputs/gabriel_globalmean_field_pca_gmm",
+  "workers": 4
+}

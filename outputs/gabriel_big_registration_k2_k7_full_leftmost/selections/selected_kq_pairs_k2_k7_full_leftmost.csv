@@ -1,0 +1,7 @@
+K,selected_q,BIC_selects_K,ICL_selects_K,rule
+2,1,True,False,smallest q in 1..100 where BIC and/or ICL preferred K
+3,89,True,True,smallest q in 1..100 where BIC and/or ICL preferred K
+4,5,False,True,smallest q in 1..100 where BIC and/or ICL preferred K
+5,3,True,False,smallest q in 1..100 where BIC and/or ICL preferred K
+6,2,True,False,smallest q in 1..100 where BIC and/or ICL preferred K
+7,5,True,False,smallest q in 1..100 where BIC and/or ICL preferred K

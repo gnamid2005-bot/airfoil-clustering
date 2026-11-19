@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "counts_complete": true,
+    "diagnostic_resolution_101": true,
+    "modal_assignments_verified": true,
+    "no_kmeans_refit": true,
+    "registration_config_frozen": true,
+    "templates_exact_means": true
+  },
+  "status": "PASS"
+}

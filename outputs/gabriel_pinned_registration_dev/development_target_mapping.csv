@@ -1,0 +1,10 @@
+target_label,existing_dataset_index,filename,existing_filename_verified,gabriel_dataset_index,matched,reason
+identity,-1,GLOBAL_MEAN,True,-1,True,identity_global_mean
+very_close,382,e853.dat,True,379,True,
+close,104,atr72sm.dat,True,101,True,
+medium_low,959,hh02.dat,True,954,True,
+medium,362,e664.dat,True,359,True,
+medium_high,1489,s6063.dat,True,1483,True,
+far,377,e837.dat,True,374,True,
+very_far,1224,n66021.dat,True,1219,True,
+extreme,518,fx79w660a.dat,True,513,True,

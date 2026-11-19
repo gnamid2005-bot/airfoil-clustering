@@ -1,0 +1,68 @@
+{
+  "all_K_present": true,
+  "all_pairwise_finite": true,
+  "all_runs_converged": true,
+  "canonicalization_tests": {
+    "different_partitions_distinct": true,
+    "idempotent": true,
+    "permutation_equivalence": true
+  },
+  "convergence_warning_count": 0,
+  "exactly_19900_pairs_each_K": true,
+  "exactly_200_labels_each_K": true,
+  "fit_runtime_seconds": 1641.3419967920054,
+  "fits_executed_this_run": 3800,
+  "fits_reused": 0,
+  "pairwise_and_analysis_runtime_seconds": 115.76957233302528,
+  "production_files_modified": false,
+  "production_seed0_reproduction": [
+    {
+      "ARI": 1.0,
+      "K": 2,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 3,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 4,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 5,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 6,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 7,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 8,
+      "exact_partition_equality": true
+    },
+    {
+      "ARI": 1.0,
+      "K": 9,
+      "exact_partition_equality": true
+    }
+  ],
+  "production_seed0_reproduction_all_k2_k9": true,
+  "registration_run": false,
+  "source_files_checked_by_sha256": 14997,
+  "source_directories_unchanged_by_sha256": true,
+  "output_storage_human": "14 MiB",
+  "total_fits_expected": 3800,
+  "total_pairwise_ARI": 378100,
+  "total_runtime_seconds": 1760.5647375409608
+}

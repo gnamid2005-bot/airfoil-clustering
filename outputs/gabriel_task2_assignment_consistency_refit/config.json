@@ -1,0 +1,64 @@
+{
+  "GMM": {
+    "BIC": "sklearn GaussianMixture.bic on training scores",
+    "ICL": "BIC + 2 * positive training posterior classification entropy",
+    "covariance_type": "full",
+    "heldout_LL": "GaussianMixture.score: mean per held-out sample",
+    "init_params": "kmeans",
+    "max_iter": 500,
+    "n_init": 5,
+    "random_state": 20260813,
+    "reg_covar": 1e-07,
+    "tol": 1e-05
+  },
+  "GMM_cells_refitted": 400,
+  "K": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Kulfan_source": "outputs/gabriel_kulfan8_gmm_k30",
+  "PCA": {
+    "centered": true,
+    "fit_scope": "training only",
+    "max_heldout_score_abs_diff": 7.993605777301127e-15,
+    "max_train_score_abs_diff": 8.43769498715119e-15,
+    "n_components": 100,
+    "refit": false,
+    "reused_saved_state": true,
+    "solver": "full",
+    "whiten": false
+  },
+  "big_registration_assignments_used": false,
+  "commit_or_push": false,
+  "fit_runtime_wall_seconds": 140.98729925078806,
+  "metric_reproduction_tolerance": {
+    "atol": 2e-07,
+    "rtol": 2e-12
+  },
+  "original_outputs_modified": false,
+  "population": {
+    "Kulfan_N": 1652,
+    "PCA_SVF_N": 1651,
+    "comparison_N": 1651,
+    "removed_from_Kulfan": {
+      "filename": "fx79w660a.dat",
+      "target_index": 513
+    }
+  },
+  "q": [
+    1,
+    100
+  ],
+  "registration_run": false,
+  "selected_q": {
+    "8": 27,
+    "9": 14,
+    "10": 17,
+    "11": 15
+  },
+  "source": "outputs/gabriel_globalmean_field_pca_gmm",
+  "sum_cell_runtime_seconds": 140.98729925078806,
+  "task": "Gabriel Task 2 strict assignment reproduction"
+}

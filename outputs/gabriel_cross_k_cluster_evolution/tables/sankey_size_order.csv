@@ -1,0 +1,39 @@
+K,raw_cluster_label,cluster_size,vertical_rank,lineage_id,dominant_parent,assigned_colour_family,assigned_node_colour,shade_rule
+8,0,437,1,L0 (root K8:C0),,#2B6CB0,#2B6CB0,base
+8,2,341,2,L2 (root K8:C2),,#2F855A,#2F855A,base
+8,1,288,3,L1 (root K8:C1),,#D97706,#D97706,base
+8,4,252,4,L4 (root K8:C4),,#7C3AED,#7C3AED,base
+8,3,175,5,L3 (root K8:C3),,#C2415D,#C2415D,base
+8,7,112,6,L7 (root K8:C7),,#64748B,#64748B,base
+8,6,31,7,L6 (root K8:C6),,#A16207,#A16207,base
+8,5,16,8,L5 (root K8:C5),,#0F766E,#0F766E,base
+9,0,380,1,L0 (root K8:C0),0,#2B6CB0,#2B6CB0,exact parent colour (dominant child)
+9,7,350,2,L2 (root K8:C2),2,#2F855A,#2F855A,exact parent colour (dominant child)
+9,3,257,3,L1 (root K8:C1),1,#D97706,#D97706,exact parent colour (dominant child)
+9,1,209,4,L4 (root K8:C4),4,#7C3AED,#7C3AED,exact parent colour (dominant child)
+9,5,190,5,L3 (root K8:C3),3,#C2415D,#C2415D,exact parent colour (dominant child)
+9,8,122,6,L2 (root K8:C2),2,#2F855A,#549b78,lighter lineage shade 1 (secondary child)
+9,2,106,7,L7 (root K8:C7),7,#64748B,#64748B,exact parent colour (dominant child)
+9,4,21,8,L5 (root K8:C5),5,#0F766E,#0F766E,exact parent colour (dominant child)
+9,6,17,9,L6 (root K8:C6),6,#A16207,#A16207,exact parent colour (dominant child)
+10,3,384,1,L0 (root K8:C0),0,#2B6CB0,#2B6CB0,exact parent colour (dominant child)
+10,0,320,2,L2 (root K8:C2),7,#2F855A,#2F855A,exact parent colour (dominant child)
+10,6,263,3,L1 (root K8:C1),3,#D97706,#D97706,exact parent colour (dominant child)
+10,8,226,4,L4 (root K8:C4),1,#7C3AED,#7C3AED,exact parent colour (dominant child)
+10,9,181,5,L7 (root K8:C7),2,#64748B,#64748B,exact parent colour (dominant child)
+10,5,117,6,L3 (root K8:C3),5,#C2415D,#C2415D,exact parent colour (dominant child)
+10,7,98,7,L2 (root K8:C2),8,#2F855A,#549b78,exact parent colour (dominant child)
+10,4,26,8,L6 (root K8:C6),6,#A16207,#A16207,exact parent colour (dominant child)
+10,1,24,9,L7 (root K8:C7),2,#64748B,#808da0,lighter lineage shade 1 (secondary child)
+10,2,13,10,L5 (root K8:C5),4,#0F766E,#0F766E,exact parent colour (dominant child)
+11,7,351,1,L0 (root K8:C0),3,#2B6CB0,#2B6CB0,exact parent colour (dominant child)
+11,5,333,2,L2 (root K8:C2),0,#2F855A,#2F855A,exact parent colour (dominant child)
+11,3,246,3,L1 (root K8:C1),6,#D97706,#D97706,exact parent colour (dominant child)
+11,0,198,4,L4 (root K8:C4),8,#7C3AED,#7C3AED,exact parent colour (dominant child)
+11,1,163,5,L7 (root K8:C7),9,#64748B,#64748B,exact parent colour (dominant child)
+11,10,120,6,L3 (root K8:C3),5,#C2415D,#C2415D,exact parent colour (dominant child)
+11,6,108,7,L7 (root K8:C7),9,#64748B,#808da0,lighter lineage shade 1 (secondary child)
+11,9,94,8,L2 (root K8:C2),7,#2F855A,#549b78,exact parent colour (dominant child)
+11,2,17,9,L6 (root K8:C6),4,#A16207,#A16207,exact parent colour (dominant child)
+11,4,12,10,L7 (root K8:C7),1,#64748B,#808da0,exact parent colour (dominant child)
+11,8,10,11,L5 (root K8:C5),2,#0F766E,#0F766E,exact parent colour (dominant child)
