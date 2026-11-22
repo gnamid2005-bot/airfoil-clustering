@@ -1,6 +1,6 @@
 # Unsupervised Analysis of Aircraft Airfoil Shapes
 
-This repository presents a MARS summer research project on unsupervised learning for aircraft airfoil geometry. The main analysis uses 1,652 airfoils represented by 200 corresponding two-dimensional points. It studies how registration-based deformation features, PCA, K-means, and Gaussian mixture models (GMMs) behave under different choices of representation, PCA dimension, and number of clusters.
+This repository presents a [MARS summer research project](https://www.lancaster.ac.uk/mathematics-for-ai-in-real-world-systems/summer-internships/) on unsupervised learning for aircraft airfoil geometry. The main analysis uses 1,652 airfoils represented by 200 corresponding two-dimensional points. It studies how registration-based deformation features, PCA, K-means, and Gaussian mixture models (GMMs) behave under different choices of representation, PCA dimension, and number of clusters.
 
 The repository contains the research poster, the raw and processed data used by the analysis, selected source code from the original research workspace, model-selection and validation artifacts, and scripts for recreating the poster figures.
 
