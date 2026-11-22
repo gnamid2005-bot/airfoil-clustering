@@ -20,9 +20,10 @@ The project also asks whether adding more registration templates reduces the def
 2. Normalize and resample each accepted contour to 200 corresponding points.
 3. Construct registration-based stationary velocity field (SVF) features using pinned airfoil contours and B-spline coefficients.
 4. Apply PCA to the registration coefficient fields.
-5. Fit K-means and full-covariance GMMs across candidate values of `K` and PCA dimension `q`.
-6. Compare candidates using BIC, ICL, held-out log likelihood, assignment stability, cluster size, and deformation-based physical diagnostics.
-7. Examine cluster mean shapes and how membership changes across selected values of `K`.
+5. Apply K-means clustering to the resampled airfoil coordinates as a shape-based baseline.
+6. Fit full-covariance Gaussian mixture models (GMMs) to the PCA-reduced registration coefficients across candidate numbers of clusters (K) and PCA dimensions (q).
+7. Compare candidate clustering configurations using BIC, ICL, held-out log likelihood, assignment stability, cluster size, and deformation-based physical diagnostics, where applicable.
+8. Examine cluster mean shapes and how membership changes across selected values of K.
 
 ## Key results
 
