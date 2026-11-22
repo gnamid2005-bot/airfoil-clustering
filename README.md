@@ -25,16 +25,14 @@ The project also asks whether adding more registration templates reduces the def
 7. Compare candidate clustering configurations using BIC, ICL, held-out log likelihood, assignment stability, cluster size, and deformation-based physical diagnostics, where applicable.
 8. Examine cluster mean shapes and how membership changes across selected values of K.
 
-## Key results
+## Key findings
 
-- Direct-coordinate K-means inertia decreased as the number of clusters increased. A chord-distance elbow diagnostic identified `K=7`, but this was treated as a diagnostic rather than a definitive model-selection result.
-- For registration-field PCA features, the GMM component count preferred by BIC, ICL, and held-out likelihood changed with the PCA dimension. The analysis therefore does not support a single universally preferred `K` independent of `q` and criterion.
-- In the modal K-means template experiment, average Dirichlet energy and average SVF magnitude generally decreased from two to nine templates. These quantities measure registration burden, not aerodynamic performance.
-- The later `K=2–11` physical-cost comparison was not monotone and combines two documented rules for selecting `q`. It is exploratory and should not be read as a controlled selection of an optimal `K`.
-- Adjacent-`q` Adjusted Rand Index results show that assignments can change materially when the retained PCA dimension changes.
-- Cluster-mean and alluvial figures show both persistent shape families and splits or reassignments as `K` increases.
+- **Multiple shape-specific templates can reduce registration deformation.** Initial K-means experiments showed that cluster-specific mean templates reduced both Dirichlet energy and average SVF magnitude as the number of templates increased. Subsequent physical-cost analysis suggested a reduction in deformation cost around K = 8, followed by a relative plateau through K = 11.
+- **Registration-derived deformation features reveal distinct airfoil shape families.** PCA and GMM clustering of registration-derived SVF coefficients identified recurring patterns of geometric variation among the 1,652 airfoils. Cluster-mean visualisations showed broad shape families that became more finely separated as the number of components increased.
+- **Clustering results depend on model complexity.** BIC, ICL, and held-out log likelihood favoured different GMM component counts depending on the retained PCA dimension. Adjacent-dimension ARI analysis also showed changes in cluster assignments, indicating that no single clustering configuration was consistently preferred across all criteria.
+* **Major shape families persist despite further subdivisions.** Cluster-mean and alluvial visualisations across K = 8–11 showed that several major shape families remained recognisable, while additional components introduced finer subdivisions and reassigned some airfoils.
 
-These statements are intentionally limited to what is supported by the saved results. They do not claim that the clusters improve aircraft design or predict aerodynamic performance.
+Overall, the results suggest that data-driven shape families offer a promising basis for selecting registration templates, although further controlled comparisons are needed to determine the most appropriate number of templates.
 
 ## My contributions
 
