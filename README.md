@@ -63,7 +63,7 @@ The registration method and scientific decisions were developed in the wider MAR
 The original UIUC archive and its extracted `.dat` files are included under `data/airfoils/raw/`. Two processed datasets are retained because they were used at different stages:
 
 - `data/airfoils/processed/airfoils_n100_seed0.npz`: 1,654 airfoils used by the earlier direct-coordinate K-means experiment.
-- `data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz`: 1,652 airfoils used by the main Gabriel registration, PCA, GMM, and downstream shape analyses.
+- `data/airfoils/processed_gabriel/airfoils_pinned_arclength_n200.npz`: 1,652 airfoils used by the main registration, PCA, GMM, and downstream shape analyses.
 
 See [data/README.md](data/README.md) for provenance, array contents, filtering, and checksums.
 
