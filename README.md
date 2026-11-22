@@ -1,6 +1,8 @@
 # Unsupervised Analysis of Aircraft Airfoil Shapes
 
-This repository presents a [MARS summer research project](https://www.lancaster.ac.uk/mathematics-for-ai-in-real-world-systems/summer-internships/) on unsupervised learning for aircraft airfoil geometry. The main analysis uses 1,652 airfoils represented by 200 corresponding two-dimensional points. It studies how registration-based deformation features, PCA, K-means, and Gaussian mixture models (GMMs) behave under different choices of representation, PCA dimension, and number of clusters.
+This repository presents a [MARS summer research project](https://www.lancaster.ac.uk/mathematics-for-ai-in-real-world-systems/summer-internships/) on unsupervised learning for aircraft airfoil geometry. The project aims to identify groups of geometrically similar airfoils and use these groupings to guide the selection of representative registration templates. Using a dataset of 1,652 airfoils, each represented by 200 corresponding two-dimensional points, we explored registration-based deformation features, principal component analysis (PCA), K-means clustering, and Gaussian mixture models (GMMs). We compared candidate clustering configurations using statistical model-selection criteria and further evaluated potential registration templates through physical deformation measures.
+
+The repository contains the research poster, raw and processed datasets, selected source code, model-selection and validation results, and scripts for reproducing the poster figures.
 
 The repository contains the research poster, the raw and processed data used by the analysis, selected source code from the original research workspace, model-selection and validation artifacts, and scripts for recreating the poster figures.
 
