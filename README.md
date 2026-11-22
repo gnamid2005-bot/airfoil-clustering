@@ -98,7 +98,7 @@ Per-airfoil registration checkpoint directories and the ten large branch-level c
 - The combined `K=2–11` deformation figure uses different `q`-selection interpretations for `K=2–7` and `K=8–11`.
 - BIC, ICL, held-out likelihood, cluster stability, and physical deformation cost answer different questions and need not select the same model.
 - Deformation energy and SVF magnitude are registration diagnostics, not lift, drag, or other aerodynamic measurements.
-- The lightweight poster-figure workflow has been checked separately from the expensive end-to-end registration workflow. This repository does not claim that every historical experiment has been rerun from raw data in a fresh environment.
+- The repository supports reproducing the poster figures from saved analysis outputs. The full registration pipeline is computationally intensive and has not been independently rerun end-to-end in a fresh environment.
 
 ## Poster
 
