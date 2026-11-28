@@ -38,7 +38,7 @@ Overall, the results suggest that data-driven shape families offer a promising b
 
 I wrote and organized Python workflows represented in this project workspace for data preparation, clustering experiments, evaluation, and figure generation. I also assembled the research artifacts into this public-facing repository.
 
-The registration method and scientific decisions were developed in the wider MARS research setting. Before using this repository in an application or publication, I will confirm any collaborator-specific attribution that is not recorded in the files themselves.
+The registration method and scientific decisions were developed in the wider MARS research setting. 
 
 ## Repository structure
 
